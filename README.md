@@ -1,0 +1,22 @@
+# LVTN – Hệ thống thu thập và quản lý dữ liệu giao thông thông minh
+
+## Giới thiệu
+
+Trong bối cảnh đô thị hóa nhanh chóng, mật độ phương tiện giao thông ngày càng gia tăng đã đặt ra nhiều thách thức đối với công tác quản lý, giám sát và đảm bảo an toàn giao thông. Việc thu thập dữ liệu giao thông ngoài thực địa hiện nay vẫn chủ yếu dựa vào phương pháp thủ công hoặc các hệ thống camera cố định, dẫn đến hạn chế về phạm vi bao phủ, tính cập nhật và chi phí triển khai.
+
+Xuất phát từ thực tiễn đó, dự án **LVTN – Hệ thống thu thập và quản lý dữ liệu giao thông thông minh** được xây dựng với mục tiêu đề xuất và triển khai một giải pháp **tự động hóa quá trình thu thập, xử lý và quản lý dữ liệu giao thông**, kết hợp giữa **ứng dụng di động**, **trí tuệ nhân tạo (AI)** và **hệ thống backend tập trung**. Hệ thống hướng đến việc hỗ trợ các đơn vị quản lý giao thông trong việc theo dõi tình trạng hạ tầng, phát hiện sớm các vấn đề tiềm ẩn và phục vụ công tác phân tích, ra quyết định.
+
+Điểm nổi bật của dự án là việc ứng dụng **AI trong quá trình thu thập dữ liệu ngoài thực địa**, cho phép tự động nhận diện các đối tượng giao thông như chướng ngại vật, hư hỏng mặt đường, biển báo giao thông từ hình ảnh và video. Dữ liệu sau khi được thu thập sẽ được gửi về hệ thống backend để lưu trữ, xử lý và hiển thị trực quan trên bản đồ số, giúp người dùng dễ dàng theo dõi và quản lý.
+
+Về mặt kiến trúc, hệ thống được thiết kế theo mô hình **đa thành phần (multi-system architecture)**, trong đó mỗi thành phần đảm nhiệm một vai trò riêng biệt nhưng vẫn liên kết chặt chẽ với nhau thông qua các API. Toàn bộ mã nguồn của dự án được tổ chức trong một repository duy nhất nhằm thuận tiện cho việc quản lý, phát triển và triển khai. Cụ thể, dự án bao gồm ba thành phần chính:
+
+- **PM_be-service**:  
+  Là hệ thống backend đóng vai trò trung tâm, chịu trách nhiệm xử lý nghiệp vụ, cung cấp API cho các ứng dụng phía client, quản lý người dùng, phân quyền truy cập và lưu trữ dữ liệu giao thông. Backend đảm bảo tính nhất quán, bảo mật và khả năng mở rộng của hệ thống.
+
+- **ROADcollector**:  
+  Là ứng dụng di động phục vụ công tác thu thập dữ liệu giao thông ngoài thực địa. Ứng dụng tích hợp mô hình **AI (YOLO)** để tự động nhận diện các đối tượng giao thông từ camera thiết bị, giảm thiểu sự phụ thuộc vào thao tác thủ công của người dùng. Dữ liệu thu thập bao gồm hình ảnh/video, vị trí GPS và thông tin nhận diện, sau đó được gửi về backend để xử lý và lưu trữ.
+
+- **ROADmap**:  
+  Là ứng dụng quản lý và hiển thị dữ liệu giao thông, cho phép người dùng theo dõi các điểm thu thập trên bản đồ, xem chi tiết thông tin từng vị trí, thống kê dữ liệu và hỗ trợ công tác quản lý, phân tích hiện trạng giao thông.
+
+Dự án không chỉ mang tính nghiên cứu học thuật mà còn hướng đến khả năng **ứng dụng thực tiễn**, có thể mở rộng và tích hợp thêm các chức năng trong tương lai như phân tích dữ liệu lớn (Big Data), dự báo nguy cơ tai nạn giao thông hoặc kết nối với các hệ thống giao thông thông minh (ITS) hiện có. Thông qua dự án này, nhóm thực hiện mong muốn góp phần đề xuất một giải pháp công nghệ nhằm nâng cao hiệu quả quản lý và đảm bảo an toàn giao thông trong môi trường đô thị hiện đại.
