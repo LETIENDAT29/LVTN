@@ -25,6 +25,11 @@ Về mặt kiến trúc, hệ thống được thiết kế theo mô hình **đa
 - **ROADmap**:  
   Là ứng dụng quản lý và hiển thị dữ liệu giao thông, cho phép người dùng theo dõi các điểm thu thập trên bản đồ, xem chi tiết thông tin từng vị trí, thống kê dữ liệu và hỗ trợ công tác quản lý, phân tích hiện trạng giao thông.
 
+  <img width="200" height="435" alt="image" src="https://github.com/user-attachments/assets/ea4ec73e-c0b5-4c7a-bf7b-8cafda7f9e8d" />
+<img width="200" height="435" alt="image" src="https://github.com/user-attachments/assets/ddec8baa-cbfa-4aee-9a73-8192df087889" />
+<img width="200" height="435" alt="image" src="https://github.com/user-attachments/assets/966a14ef-08fd-4126-87d9-b637520d9106" />
+
+
 Dự án không chỉ mang tính nghiên cứu học thuật mà còn hướng đến khả năng **ứng dụng thực tiễn**, có thể mở rộng và tích hợp thêm các chức năng trong tương lai như phân tích dữ liệu lớn (Big Data), dự báo nguy cơ tai nạn giao thông hoặc kết nối với các hệ thống giao thông thông minh (ITS) hiện có. Thông qua dự án này, nhóm thực hiện mong muốn góp phần đề xuất một giải pháp công nghệ nhằm nâng cao hiệu quả quản lý và đảm bảo an toàn giao thông trong môi trường đô thị hiện đại.
 
 LVTN/
