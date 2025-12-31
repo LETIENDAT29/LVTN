@@ -31,7 +31,7 @@ Về mặt kiến trúc, hệ thống được thiết kế theo mô hình **đa
 
 
 Dự án không chỉ mang tính nghiên cứu học thuật mà còn hướng đến khả năng **ứng dụng thực tiễn**, có thể mở rộng và tích hợp thêm các chức năng trong tương lai như phân tích dữ liệu lớn (Big Data), dự báo nguy cơ tai nạn giao thông hoặc kết nối với các hệ thống giao thông thông minh (ITS) hiện có. Thông qua dự án này, nhóm thực hiện mong muốn góp phần đề xuất một giải pháp công nghệ nhằm nâng cao hiệu quả quản lý và đảm bảo an toàn giao thông trong môi trường đô thị hiện đại.
-
+📁 Cấu Trúc Dự Án
 ```text
 LVTN/
 ├─ PM_be-service/
@@ -97,5 +97,25 @@ LVTN/
 │  └─ eslint.config.js
 │
 └─ README.md
+
+...
+Authentication
+POST /api/auth/register - Đăng ký
+POST /api/auth/login - Đăng nhập
+GET /api/auth/me - Lấy thông tin user
+
+Detection
+POST /api/detection - Vị trí vật thể
+GET /api/object-  lấy vị trí vật thể
+...
+
+Decode YOLO
+Input shape = (1, 640, 640, 3)
+Output shape = (1, C, N)
+
+chỉ số Intersection over Union (IoU)
+<img width="268" height="80" alt="image" src="https://github.com/user-attachments/assets/5a8844a1-d401-4264-bc7e-79a0104036d7" />
+
+
 
 
