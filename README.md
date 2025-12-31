@@ -1,5 +1,10 @@
-<img width="329" height="748" alt="image" src="https://github.com/user-attachments/assets/96bbd451-cd34-487c-a93b-9b5e5ef6a2ff" /># LVTN – Hệ thống thu thập và quản lý dữ liệu giao thông thông minh
-![Uploading image.png…]()
+
+# LVTN – Hệ thống thu thập và quản lý dữ liệu giao thông thông minh
+<img width="150" height="370" alt="image" src="https://github.com/user-attachments/assets/96bbd451-cd34-487c-a93b-9b5e5ef6a2ff" />
+
+<img width="150" height="370" alt="image" src="https://github.com/user-attachments/assets/0f6cc0d1-dff6-476b-8337-2062004e28b2" />
+<img width="150" height="370" alt="image" src="https://github.com/user-attachments/assets/4a8531e8-c744-4f01-8322-0f5aa97456a6" />
+
 
 ## Giới thiệu
 
