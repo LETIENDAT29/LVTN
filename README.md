@@ -1,4 +1,5 @@
-# LVTN – Hệ thống thu thập và quản lý dữ liệu giao thông thông minh
+<img width="329" height="748" alt="image" src="https://github.com/user-attachments/assets/96bbd451-cd34-487c-a93b-9b5e5ef6a2ff" /># LVTN – Hệ thống thu thập và quản lý dữ liệu giao thông thông minh
+![Uploading image.png…]()
 
 ## Giới thiệu
 
@@ -20,3 +21,69 @@ Về mặt kiến trúc, hệ thống được thiết kế theo mô hình **đa
   Là ứng dụng quản lý và hiển thị dữ liệu giao thông, cho phép người dùng theo dõi các điểm thu thập trên bản đồ, xem chi tiết thông tin từng vị trí, thống kê dữ liệu và hỗ trợ công tác quản lý, phân tích hiện trạng giao thông.
 
 Dự án không chỉ mang tính nghiên cứu học thuật mà còn hướng đến khả năng **ứng dụng thực tiễn**, có thể mở rộng và tích hợp thêm các chức năng trong tương lai như phân tích dữ liệu lớn (Big Data), dự báo nguy cơ tai nạn giao thông hoặc kết nối với các hệ thống giao thông thông minh (ITS) hiện có. Thông qua dự án này, nhóm thực hiện mong muốn góp phần đề xuất một giải pháp công nghệ nhằm nâng cao hiệu quả quản lý và đảm bảo an toàn giao thông trong môi trường đô thị hiện đại.
+
+LVTN/
+├─ PM_be-service/
+│  ├─ config/
+│  ├─ node_modules/
+│  ├─ src/
+│  ├─ .env
+│  ├─ .sequelizerc
+│  ├─ package.json
+│  └─ package-lock.json
+│
+├─ ROADcollector/
+│  └─ ex/
+│     ├─ .idea/
+│     ├─ .kotlin/
+│     ├─ app/
+│     │  ├─ build/
+│     │  └─ src/
+│     │     ├─ androidTest/
+│     │     ├─ test/
+│     │     └─ main/
+│     │        ├─ assets/
+│     │        ├─ java/com/example/roadcollector/
+│     │        │  ├─ camera/        # Xử lý camera, preview, analyzer
+│     │        │  ├─ collect/       # Luồng thu thập dữ liệu
+│     │        │  ├─ data/          # Model, repository, datasource
+│     │        │  ├─ di/            # Dependency Injection
+│     │        │  ├─ home/          # Màn hình chính
+│     │        │  ├─ location/      # GPS, vị trí người dùng
+│     │        │  ├─ login/         # Đăng nhập / xác thực
+│     │        │  ├─ navigation/    # Điều hướng trong ứng dụng
+│     │        │  ├─ ui/            # UI (Jetpack Compose)
+│     │        │  ├─ utils/         # Tiện ích dùng chung
+│     │        │  ├─ yolov8/        # AI YOLOv8 (nhận diện đối tượng)
+│     │        │  ├─ App.kt
+│     │        │  ├─ MainActivity.kt
+│     │        │  └─ TestDecode.kt
+│     │        ├─ res/              # Layout, drawable, values
+│     │        └─ AndroidManifest.xml
+│     │
+│     ├─ .gitignore
+│     └─ build.gradle.kts
+│
+├─ ROADmap/
+│  ├─ .vscode/
+│  ├─ app/
+│  │  ├─ (tabs)/
+│  │  ├─ component/
+│  │  ├─ profile/
+│  │  ├─ screens/
+│  │  ├─ styles/
+│  │  ├─ _layout.tsx
+│  │  └─ modal.tsx
+│  ├─ assets/
+│  ├─ components/
+│  ├─ constants/
+│  ├─ hooks/
+│  ├─ scripts/
+│  ├─ src/
+│  ├─ .gitignore
+│  ├─ app.json
+│  ├─ eas.json
+│  └─ eslint.config.js
+│
+└─ README.md
+
